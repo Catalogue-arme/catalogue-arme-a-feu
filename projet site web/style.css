@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #aaa;
+  color: #222;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.category {
+  margin: 5px 10px;
+  padding: 8px 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.category:hover {
+  background-color: #ddd;
+}
+
+.content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+.card-contain {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .card-contain {
+  display: block;
+  
+}
+}
+
+.container-1 {
+margin: 0 auto;
+
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.card-contain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.site-header {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.site-logo {
+  height: 80px;
+}
+
+
+.site-header {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+.site-logo {
+  height: 80px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #222;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.panier-section {
+  margin-top: 40px;
+  background: #d70f0f;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  background: url('images/4b52b79b-fc0d-4c61-9c0a-904730cf69a6.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+
+
+.texte-transparence {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      width: fit-content;
+      margin: 50px;
+      font-size: 20px;
+    }
